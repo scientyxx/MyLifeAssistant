@@ -19,6 +19,22 @@ Route::get('/', function () {
 
 
 
-Route::get('/', function () {
+Route::get('/schedule', function () {
     return view('schedule');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/reminder', function () {
+    return view('reminder');
+});
+
+Route::get('/money-planning', function () {
+    return view('money-planning');
+});
+
+Route::get('/memo', function () {
+    return view('memo');
 });
